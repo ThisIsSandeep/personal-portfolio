@@ -6,9 +6,7 @@ import Jumbotron from '../reusable_components/Jumbotron';
 const Home = () => {
   return (
     <React.Fragment>
-      <section>
-        <Jumbotron />
-      </section>
+      <Jumbotron />
     </React.Fragment>
   );
 };
