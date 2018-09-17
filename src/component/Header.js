@@ -5,7 +5,7 @@ const Header = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark">
       <Link to="/" className="navbar-brand">
-        Sandeep Bansal
+        <span>Sandeep Bansal</span>
       </Link>
       <button
         className="navbar-toggler"
@@ -24,6 +24,11 @@ const Header = () => {
           <li className="nav-item active">
             <Link to="/" className="nav-link">
               Home
+            </Link>
+          </li>
+          <li className="nav-item active">
+            <Link to="/" className="nav-link">
+              About me
             </Link>
           </li>
         </ul>
